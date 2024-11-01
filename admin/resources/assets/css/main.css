@@ -1,0 +1,158 @@
+/**
+ * @package AWS Price Calculator
+ * @author Enrico Venezia
+ * @copyright (C) Altos Web Solutions Italia
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+**/
+
+/* Compatibility with other FontAwesome versions */
+.wsf-bs .fa {
+    font-family: 'FontAwesome' !important;
+}
+
+.awspc-output-product-table,
+.awspc-output-product-table tr,
+.awspc-output-product-table td {
+    border: 0px;
+}
+
+.awspc-text-after-field {
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.awspc-field-widget input[type="text"],
+.awspc-field-widget select {
+    width: 100%;
+}
+
+/* Image List Element */
+.aws_price_calc_imagelist_button {
+    width: 100%;
+    background-color: #008CBA;
+    border-radius: 5px;
+}
+
+.aws_price_calc_imagelist_button img {
+    /* width: 50px; */
+    /* height: 50px; */
+}
+/* /Image List Element */
+
+/* Image List Modal */
+/*
+.awspc-modal-imagelist-row:hover td {
+    background-color: #aaaaaa;
+}
+*/
+
+.awspc-modal-imagelist-row td {
+    width: 100%;    
+}
+
+.awspc-modal-imagelist-image-column {
+    text-align: center;
+}
+
+.awspc_modal_imagelist_image {
+    margin: 10px 10px 10px 10px;
+}
+
+.awspc_modal_imagelist_text {
+    display: block;
+}
+
+.awspc-modal-imagelist {
+    min-width: 1000px;
+}
+
+.awspc-modal-imagelist-hover {
+    background-color: #EEEEEE;
+}
+
+.awspc-modal-imagelist-clicked {
+    background-color: #008CBA;
+}
+
+.awspc-modal-imagelist-table {
+    padding-top: 10px;
+}
+
+.awspc-modal-imagelist-table table {
+    width: 100%;
+    border: 0px solid black;
+}
+
+.awspc-modal-imagelist-table table td {
+    border: 0px solid black;
+}
+
+/* /Image List Modal */
+
+.aws_price_calculator_cross {
+    display: inline;
+}
+
+.aws_price_calculator_tick {
+    display: inline;
+}
+
+.woo-price-calculator-tooltip img:hover { 
+    cursor: help; 
+}
+
+.awspc-output-product {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.wpc-product-form {
+    width: 100%;
+}
+
+.wpc-edit-icon {
+    background-image: url(edit.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    width: auto !important;
+    background-color: #cecece;
+    padding: 5px 5px 5px 25px;
+    background-position: 5px 40%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.wpc-edit-icon:hover > .cart-text {
+    text-decoration: underline;
+}
+
+.wpc-cart-item-buttons {
+    padding-top: 15px;
+}
+
+.wpc-modal-fields {
+    width: 100%;
+}
+
+.wpc-modal-fields table {
+    width: 90%;
+}
+
+.awspc-field-error {
+    color: red;
+}
+
+.wpc-cart-edit {
+    /* padding: 0 1em !important; */
+}
+
+.wpc-modal-title {
+    padding-bottom: 15px;
+}
+
+.awspc-variation .awspc-variation-label,
+.awspc-variation .awspc-variation-value {
+    width: 100%;
+    display: inline-block;
+}
